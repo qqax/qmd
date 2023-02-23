@@ -1,5 +1,6 @@
 package qmd
 
+// ConcatMultipleSlices concat multiple slices of any type.
 func ConcatMultipleSlices[T any](slices ...[]T) []T {
 	var totalLen int
 
